@@ -21,6 +21,7 @@ This project was bootstrapped with [`create-next-app`](https://github.com/vercel
 ### 📦 Install Dependencies and Run the Development Server
 
 Before running the app, install all required packages and start the development server:
+Use Node.js 20.x LTS for best compatibility
 
 ```bash
 npm install
