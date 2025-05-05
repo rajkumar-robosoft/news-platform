@@ -1,4 +1,4 @@
-# 📰 News Platform
+[homePage.json](https://github.com/user-attachments/files/20036104/homePage.json)# 📰 News Platform
 
 A modern **Next.js**-based news platform that allows users filter, and read articles with rich media support.
 
@@ -43,5 +43,12 @@ pnpm dev
 # or
 bun dev
 
-
+```
 Open http://localhost:3000 in your browser to see the result.
+
+<img width="1261" alt="Screenshot 2025-05-05 at 5 46 00 PM" src="https://github.com/user-attachments/assets/73d31f16-d3bb-4aed-8b08-949861a2afb0" />
+<img width="1261" alt="article-detail" src="https://github.com/user-attachments/assets/bcbedd27-6924-48ae-bd20-1ee7548fac8f" />
+<img width="1261" alt="article-detail-remaining" src="https://github.com/user-attachments/assets/1df6dc64-2b44-457e-bc86-653cb21307a9" />
+
+
+
