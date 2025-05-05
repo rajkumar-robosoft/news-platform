@@ -16,7 +16,7 @@ export default function ArticleCard({ title, subtitle, hero }) {
       <CardMedia
         component="img"
         sx={{
-          width: '33%',
+          width: '25%',
           height: 'auto',
           objectFit: 'cover',
           borderRadius: 2,

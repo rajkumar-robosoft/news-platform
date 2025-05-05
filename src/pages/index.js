@@ -71,6 +71,15 @@ const HomePage = () => {
 
     return (
         <Container sx={{ paddingTop: 4 }}>
+            {/* Title & Description */}
+            <Box sx={{ textAlign: 'center', mb: 8}}>
+                <Typography variant="h4" color="primary" fontWeight="bold" gutterBottom>
+                    NewsNow – Stay Informed. Stay Ahead.
+                </Typography>
+                <Typography variant="subtitle1" color="text.secondary">
+                    Your one-stop destination for the latest articles across categories, authors, and topics. Filter, explore, and stay updated.
+                </Typography>
+            </Box>
             <FilterBar
                 authors={filterOptions.authors}
                 categories={filterOptions.categories}
@@ -79,7 +88,7 @@ const HomePage = () => {
                 onFilterChange={handleFilterChange}
             />
             {filteredArticles.length === 0 ? (
-                <Box sx={{ textAlign: 'center', mt: 8 }}>
+                <Box sx={{ textAlign: 'center', mt: 4 }}>
                     <Typography variant="h6" color="text.secondary">
                         No articles found for the selected filters.
                     </Typography>
