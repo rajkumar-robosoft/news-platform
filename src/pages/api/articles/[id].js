@@ -4,6 +4,7 @@ export default function handler(req, res) {
   const articles = [
     {
       articleId: "a2b448sq",
+      articleType: "1",
       published: "2024-12-24 13:45",
       author: {
         authorId: "c3js6384",
@@ -27,6 +28,7 @@ export default function handler(req, res) {
     },
     {
       articleId: "b2n2ss92",
+      articleType: "1",
       title: "Has Codeium Cracked the Code for AI Assistants?",
       subtitle: "Exploring the advancements in AI-powered coding assistants.",
       hero: "https://www.bigdatawire.com/wp-content/uploads/2024/05/AI-copilot_shutterstock_AI-generated.jpg",
@@ -45,6 +47,7 @@ export default function handler(req, res) {
     },
     {
       articleId: "c3q4t5u6",
+      articleType: "1",
       title: "The Future of Quantum Computing",
       subtitle: "How quantum breakthroughs could redefine technology.",
       hero: "https://informationage-production.s3.amazonaws.com/uploads/2024/09/GettyImages-2156615862.jpg",
