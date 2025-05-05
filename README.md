@@ -1,4 +1,4 @@
-[homePage.json](https://github.com/user-attachments/files/20036104/homePage.json)# 📰 News Platform
+# 📰 News Platform
 
 A modern **Next.js**-based news platform that allows users filter, and read articles with rich media support.
 
